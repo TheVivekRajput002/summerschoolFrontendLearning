@@ -9,6 +9,7 @@ import { WorkshopCard } from "@/components/WorkshopCard";
 import React, { useState, useEffect } from "react";
 import About from "@/components/About";
 import FeedbackSection from "@/components/FeedbackSection";
+import Updated_FeedbackSection from "@/components/Updated_FeedbackSection";
 import StartLearning from "@/components/StartLearning";
 import bg from '@/assets/images/bg.jpg'
 import Updated_Loader from "@/components/Updated_Loader";
@@ -115,10 +116,12 @@ const Home = () => {
 
           {/*<h1 className='scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance p-2 m-2 mb-4'></h1>*/}
           <FeatureCard isLoggedIn={false} />
+          {/* <Updated_FeatureCard isLoggedIn={false} /> */}
         </div>
         {/*<h1 className="text-3xl md:4xl lg:8xl font-foreground font-bold my-4">Features Card</h1>*/}
 
         <FeedbackSection />
+        {/* <Updated_FeedbackSection /> */}
       </div>
 
       <style jsx>{`
