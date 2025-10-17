@@ -22,8 +22,8 @@ export default function Component() {
         <div className="flex flex-col flex-1 justify-center items-center px-4">
           <div className="mx-auto space-y-4 text-center max-w-sm">
             <div className="space-y-10">
-              <h1 className="text-5xl font-bold">Login</h1>
-              <p className="text-gray-500 text-lg dark:text-gray-400">
+              <h1 className="text-5xl max-md:text-3xl font-bold">Login</h1>
+              <p className="text-gray-500 max-md:text-sm text-lg dark:text-gray-400">
                 Click below to login to your account
               </p>
             </div>

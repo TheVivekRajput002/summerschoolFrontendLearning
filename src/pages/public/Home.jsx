@@ -57,7 +57,7 @@ const Home = () => {
     fetchWorkshops();
   }, []);
 
-  if (loading) return <Updated_Loader />;
+  if (loading) return <p>Loading homepage...</p>;
 
   return (
     <>

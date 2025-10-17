@@ -24,7 +24,7 @@ const About = () => {
 
                     {/* <!-- Cards Section --> */}
 
-                    <div class=" md:grid md:grid-cols-2 md:justify-items-center md:gap-4">
+                    <div class=" md:grid md:grid-cols-2 max-md:space-y-3 md:justify-items-center md:gap-4">
 
                         {/* <!-- Expert Mentorship (slide from left) --> */}
 

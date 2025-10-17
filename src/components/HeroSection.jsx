@@ -49,7 +49,7 @@ export default function HeroSection(props) {
       </div> */}
 
 
-      <div className="w-[70%] mx-auto py-10 px-0 grid grid-cols-2 md:grid-cols-4 gap-2 text-center backdrop-blur-xs bg-white/10 border border-white/20 rounded-3xl p-8 shadow-2xl ">
+      <div className="w-[70%] max-md:w-[90%] max-md:mb-10 mx-auto py-10 px-5 grid grid-cols-2 md:grid-cols-4 gap-2 text-center backdrop-blur-xs bg-white/10 border border-white/20 rounded-3xl p-8 shadow-2xl ">
 
         <div>
           <p className="text-4xl font-bold mb-3">{props.total_workshops}</p>
